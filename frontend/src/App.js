@@ -4,6 +4,7 @@
 //import './components/Footer',
 import {Footer} from './components/Footer.jsx'
 import {Navbar} from './components/Navbar.jsx'
+import {TestModelComponent} from './testfront.js'
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       </div>
 
       <Footer />
+
+      <TestModelComponent />  
 
     </>
   );
