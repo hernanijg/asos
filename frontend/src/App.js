@@ -1,5 +1,7 @@
 //import logo from './logo.svg';
 //import './App.css';
+import './components/Navbar';
+import './components/Footer',
 
 function App() {
   return (
