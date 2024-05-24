@@ -1,17 +1,23 @@
 //import logo from './logo.svg';
 //import './App.css';
-import './components/Navbar';
-import './components/Footer',
+//import './components/Navbar';
+//import './components/Footer',
+import {Footer} from './components/Footer.jsx'
+import {Navbar} from './components/Navbar.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-         React is clean
-        </p>
-      </header>
-    </div>
+    <>
+      
+      <Navbar />
+      
+      <div>
+        <p> The body is here</p>
+      </div>
+
+      <Footer />
+
+    </>
   );
 }
 
