@@ -25,6 +25,7 @@ class ProductSeeSerializer(serializers.ModelSerializer):
 class ProductLikeSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProductLike
+        fiedls = '__all__'
 
 class CarSerializer(serializers.ModelSerializer):
     class Meta: 

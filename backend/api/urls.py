@@ -22,5 +22,4 @@ urlpatterns = [
     path('order/<int:pk>', OrderRetrieveUpdateDestroyApi.as_view(), name='order-retrieve-update-destroy'),
     path('car/', CarListCreateApi.as_view(), name='car-list-create'),
     path('car/<int:pk>', CarRetrieveUpdateDestroyApi.as_view(), name='car-retrieve-update-destroy'),
-
 ]
