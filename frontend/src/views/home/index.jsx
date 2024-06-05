@@ -1,9 +1,12 @@
+import Navigation from "@/components/common/Navigation"
+
 const Home = () => {
 
     return (
-        <div>
+        <body>
+            <Navigation />
             Home
-        </div>
+        </body>
     )
 }
 
